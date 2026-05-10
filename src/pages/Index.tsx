@@ -183,7 +183,7 @@ export default function Index() {
             <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 rounded-full text-xs font-medium tracking-widest uppercase border"
               style={{ borderColor: "rgba(0,212,255,0.3)", color: "#00d4ff", background: "rgba(0,212,255,0.08)" }}>
               <span className="w-2 h-2 rounded-full animate-pulse" style={{ background: "#00d4ff" }} />
-              Профессиональный монтаж систем
+              Профессиональный монтаж кондиционеров
             </div>
 
             <h1 className="font-oswald font-bold leading-none mb-6"
