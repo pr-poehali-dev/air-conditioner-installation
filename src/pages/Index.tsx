@@ -439,7 +439,6 @@ export default function Index() {
               <div className="flex flex-col gap-6">
                 {[
                   { icon: "Phone", label: "Телефон", value: "+7 (996) 669-41-17", sub: "Пн–Пт: 9:00–19:00" },
-                  { icon: "Mail", label: "Email", value: "pagodavdome@mail.ru", sub: "Ответим в течение часа" },
                   { icon: "MapPin", label: "Город", value: "Москва и МО", sub: "Работаем по всему региону" },
                 ].map(({ icon, label, value, sub }) => (
                   <div key={label} className="flex gap-4 items-start p-5 rounded-lg border"
