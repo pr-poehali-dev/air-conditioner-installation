@@ -133,7 +133,7 @@ export default function Index() {
       >
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="font-oswald text-xl font-bold tracking-widest" style={{ color: "#00d4ff" }}>
-            TECH<span style={{ color: "#fff" }}>МОНТАЖ</span>
+            ПОГОДА<span style={{ color: "#fff" }}> В ДОМЕ</span>
           </div>
           <div className="hidden md:flex gap-8 text-sm tracking-wider font-medium" style={{ color: "rgba(224,247,255,0.7)" }}>
             {[["hero", "ГЛАВНАЯ"], ["services", "УСЛУГИ"], ["guarantees", "ГАРАНТИИ"], ["contacts", "КОНТАКТЫ"]].map(([id, label]) => (
@@ -458,7 +458,7 @@ export default function Index() {
       {/* FOOTER */}
       <footer className="py-8 border-t text-center" style={{ borderColor: "rgba(0,212,255,0.1)", background: "#020b18" }}>
         <div className="font-oswald text-lg font-bold tracking-widest mb-2" style={{ color: "#00d4ff" }}>
-          TECH<span style={{ color: "#fff" }}>МОНТАЖ</span>
+          ПОГОДА<span style={{ color: "#fff" }}> В ДОМЕ</span>
         </div>
         <p className="text-xs" style={{ color: "rgba(224,247,255,0.3)" }}>
           © 2024 ТехМонтаж. Все права защищены.
