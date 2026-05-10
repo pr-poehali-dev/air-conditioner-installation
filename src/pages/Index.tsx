@@ -238,7 +238,7 @@ export default function Index() {
             </div>
 
             <div className="flex flex-wrap gap-10 mt-16 pt-10 border-t" style={{ borderColor: "rgba(0,212,255,0.15)" }}>
-              {[["200+", "Объектов сдано"], ["8 лет", "На рынке"], ["24/7", "Поддержка"], ["2 года", "Гарантия"]].map(([num, label]) => (
+              {[["5000+", "Объектов сдано"], ["8 лет", "На рынке"], ["24/7", "Поддержка"], ["2 года", "Гарантия"]].map(([num, label]) => (
                 <div key={label}>
                   <div className="font-oswald text-3xl font-bold" style={{ color: "#00d4ff" }}>{num}</div>
                   <div className="text-xs mt-1 tracking-wider" style={{ color: "rgba(224,247,255,0.5)" }}>{label}</div>
