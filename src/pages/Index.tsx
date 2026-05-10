@@ -305,7 +305,7 @@ export default function Index() {
               <div className="inline-block px-3 py-1 mb-4 text-xs tracking-widest uppercase border-l-2 pl-4" style={{ borderColor: "#00d4ff", color: "#00d4ff" }}>
                 Надёжность и доверие
               </div>
-              <h2 className="font-oswald text-4xl md:text-5xl font-bold" style={{ color: "#fff" }}>ГАРАНТИИ<br />И СЕРТИФИКАТЫ</h2>
+              <h2 className="font-oswald text-4xl md:text-5xl font-bold" style={{ color: "#fff" }}>ГАРАНТИИ</h2>
             </div>
           </Section>
 
