@@ -196,7 +196,7 @@ export default function Index() {
             </h1>
 
             <p className="text-lg mb-10 max-w-xl leading-relaxed" style={{ color: "rgba(224,247,255,0.65)" }}>
-              Видеонаблюдение, охранная сигнализация, умный дом, структурированные кабельные сети. Работаем быстро, по договору, с гарантией.
+              Работаем быстро, по договору, с гарантией.
             </p>
 
             <div className="flex flex-wrap gap-4">
