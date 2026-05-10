@@ -430,9 +430,9 @@ export default function Index() {
             <Section>
               <div className="flex flex-col gap-6">
                 {[
-                  { icon: "Phone", label: "Телефон", value: "+7 (999) 000-00-00", sub: "Пн–Пт: 9:00–19:00" },
-                  { icon: "Mail", label: "Email", value: "info@techmont.ru", sub: "Ответим в течение часа" },
-                  { icon: "MapPin", label: "Город", value: "Работаем по всему региону", sub: "Выезд на объект — бесплатно" },
+                  { icon: "Phone", label: "Телефон", value: "+7 (996) 669-41-17", sub: "Пн–Пт: 9:00–19:00" },
+                  { icon: "Mail", label: "Email", value: "pagodavdome@mail.ru", sub: "Ответим в течение часа" },
+                  { icon: "MapPin", label: "Город", value: "Москва и МО", sub: "Работаем по всему региону" },
                 ].map(({ icon, label, value, sub }) => (
                   <div key={label} className="flex gap-4 items-start p-5 rounded-lg border"
                     style={{ background: "rgba(10,22,40,0.6)", borderColor: "rgba(0,212,255,0.12)" }}>
@@ -453,7 +453,7 @@ export default function Index() {
                     <Icon name="Clock" size={16} style={{ color: "#00d4ff" }} />
                     <span className="font-oswald font-semibold tracking-wider text-sm" style={{ color: "#00d4ff" }}>РЕЖИМ РАБОТЫ</span>
                   </div>
-                  {[["Понедельник – Пятница", "09:00 – 19:00"], ["Суббота", "10:00 – 16:00"], ["Воскресенье", "Выходной"]].map(([day, time]) => (
+                  {[["Понедельник – Пятница", "09:00 – 19:00"], ["Суббота", "10:00 – 19:00"], ["Воскресенье", "Выходной"]].map(([day, time]) => (
                     <div key={day} className="flex justify-between text-sm py-1.5 border-b last:border-0" style={{ borderColor: "rgba(0,212,255,0.08)" }}>
                       <span style={{ color: "rgba(224,247,255,0.55)" }}>{day}</span>
                       <span style={{ color: day === "Воскресенье" ? "rgba(224,247,255,0.3)" : "#fff" }}>{time}</span>
