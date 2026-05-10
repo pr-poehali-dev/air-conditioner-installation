@@ -28,6 +28,7 @@ const priceCategories = [
     icon: "Wrench",
     items: [
       { name: "Заправка фреоном R32/R410", price: "от 2 000 ₽" },
+      { name: "Комплексное ТО (внутр. + наружн.)", price: "от 7 000 ₽" },
     ],
   },
   {
