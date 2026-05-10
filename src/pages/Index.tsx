@@ -148,6 +148,12 @@ export default function Index() {
               </button>
             ))}
             <button
+              onClick={() => navigate("/works")}
+              className="hover:text-cyan-300 transition-colors duration-200"
+            >
+              РАБОТЫ
+            </button>
+            <button
               onClick={() => navigate("/price")}
               className="hover:text-cyan-300 transition-colors duration-200"
             >
@@ -165,6 +171,9 @@ export default function Index() {
                 {label}
               </button>
             ))}
+            <button onClick={() => navigate("/works")} className="text-left py-2" style={{ color: "rgba(224,247,255,0.8)" }}>
+              РАБОТЫ
+            </button>
             <button onClick={() => navigate("/price")} className="text-left py-2" style={{ color: "rgba(224,247,255,0.8)" }}>
               ПРАЙС
             </button>

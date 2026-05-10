@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "GET works list",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200,
+      "expectedBody": {"works": []},
+      "bodyMatcher": "partial",
+      "parseResponseBody": true
+    }
+  ]
+}
