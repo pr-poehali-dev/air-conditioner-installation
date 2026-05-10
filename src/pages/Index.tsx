@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { useNavigate } from "react-router-dom";
 import Icon from "@/components/ui/icon";
 
 const HERO_IMAGE = "https://cdn.poehali.dev/projects/07a5d9ed-123e-4e5d-ac16-a8eb7a7551b8/files/5b7ef35c-835f-4c36-b933-ae6145709493.jpg";
@@ -98,6 +99,7 @@ function Section({ children, className = "" }: { children: React.ReactNode; clas
 }
 
 export default function Index() {
+  const navigate = useNavigate();
   const [form, setForm] = useState({ name: "", phone: "", message: "" });
   const [sent, setSent] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -145,6 +147,12 @@ export default function Index() {
                 {label}
               </button>
             ))}
+            <button
+              onClick={() => navigate("/price")}
+              className="hover:text-cyan-300 transition-colors duration-200"
+            >
+              ПРАЙС
+            </button>
           </div>
           <button className="md:hidden" onClick={() => setMenuOpen(!menuOpen)} style={{ color: "#00d4ff" }}>
             <Icon name={menuOpen ? "X" : "Menu"} size={24} />
@@ -157,6 +165,9 @@ export default function Index() {
                 {label}
               </button>
             ))}
+            <button onClick={() => navigate("/price")} className="text-left py-2" style={{ color: "rgba(224,247,255,0.8)" }}>
+              ПРАЙС
+            </button>
           </div>
         )}
       </nav>
