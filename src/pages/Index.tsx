@@ -211,8 +211,7 @@ export default function Index() {
               УСТАНОВКА<br />
               <span style={{ color: "#00d4ff", textShadow: "0 0 40px rgba(0,212,255,0.5)" }}>
                 КОНДИЦИОНЕРОВ
-              </span><br />
-              ПОД КЛЮЧ
+              </span>
             </h1>
 
             <p className="text-lg mb-10 max-w-xl leading-relaxed" style={{ color: "rgba(224,247,255,0.65)" }}>
