@@ -190,7 +190,7 @@ export default function Index() {
               style={{ fontSize: "clamp(2.5rem, 7vw, 5rem)", color: "#fff" }}>
               УСТАНОВКА<br />
               <span style={{ color: "#00d4ff", textShadow: "0 0 40px rgba(0,212,255,0.5)" }}>
-                УМНЫХ СИСТЕМ
+                КОНДИЦИОНЕРОВ
               </span><br />
               ПОД КЛЮЧ
             </h1>
